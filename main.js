@@ -24,6 +24,7 @@ let count = 0
 incrementBtn.addEventListener('click',function(){
     count += 1
     document.querySelector('#count-el').innerText = count
+    document.querySelector('#count-el').style.color = 'darkgreen'
     // console.log('clicked!')
 })
 
